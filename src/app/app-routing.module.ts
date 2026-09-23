@@ -1,15 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { MissionComponent } from './mission/mission.component';
-import { GiveComponent } from './give/give.component';
-import { ShareComponent } from './share/share.component';
+import { OneComponent } from './one/one.component';
+import { TwoComponent } from './two/two.component';
+import { ThreeComponent } from './three/three.component';
+import { FourComponent } from './four/four.component';
+import { FiveComponent } from './five/five.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'mission', pathMatch: 'full' },
-  { path: 'mission', component: MissionComponent },
-  { path: 'give', component: GiveComponent },
-  { path: 'share', component: ShareComponent },
+  { path: '',   redirectTo: 'one', pathMatch: 'full' },
+  { path: 'one', component: OneComponent },
+  { path: 'two', component: TwoComponent },
+  { path: 'three', component: ThreeComponent },
+  { path: 'four', component: FourComponent },
+  { path: 'five', component: FiveComponent },
 ];
 
 @NgModule({

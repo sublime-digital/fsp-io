@@ -28,12 +28,12 @@ html, body {
   height:100%;
 }
 
-h1 {
+h1, h4, h5 {
   color: white;
 }
 
 body {
-    background: linear-gradient(-45deg, #168A8C, #23D6D9, #418B8C, #0A3F40);
+    background: linear-gradient(-45deg, red, blue, maroon, darkblue);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
     padding-top:80px;
@@ -53,3 +53,11 @@ body {
 }
 
 /*** Color Changing Background Gradient ***/
+
+#divina {
+  border-radius: 20px;
+}
+
+.row {
+  padding-top: 200px;
+}

@@ -5,16 +5,20 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { MissionComponent } from './mission/mission.component';
-import { GiveComponent } from './give/give.component';
-import { ShareComponent } from './share/share.component';
+import { OneComponent } from './one/one.component';
+import { TwoComponent } from './two/two.component';
+import { ThreeComponent } from './three/three.component';
+import { FourComponent } from './four/four.component';
+import { FiveComponent } from './five/five.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MissionComponent,
-    GiveComponent,
-    ShareComponent,
+    OneComponent,
+    TwoComponent,
+    ThreeComponent,
+    FourComponent,
+    FiveComponent
   ],
   imports: [
     BrowserModule,
