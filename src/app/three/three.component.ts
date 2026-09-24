@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-three',
-  templateUrl: './three.component.html',
-  styleUrls: ['./three.component.css']
+    selector: 'app-three',
+    templateUrl: './three.component.html',
+    styleUrls: ['./three.component.css'],
+    standalone: false
 })
 export class ThreeComponent implements OnInit {
 
